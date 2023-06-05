@@ -13,7 +13,7 @@ def delOS(id):
     
 detector = HandDetector(maxHands=1 , detectionCon=0.8 )
 allOS=[]
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     ret,  photo = cap.read()
